@@ -232,9 +232,13 @@
     
    
    
-     select * from  xworkz.films;
+   /*  select * from  xworkz.films where sl_no=3 and actress='shrinidhy shetty';
+       select * from  xworkz.films where sl_no=3 or actress='shrinidhy shetty';
+         select * from  xworkz.films where sl_no=(1,) in ;
+         not in update */
+       
     
-    
+    /*where sl noand 
     
     
     

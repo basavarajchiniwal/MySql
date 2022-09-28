@@ -9,4 +9,38 @@ Business_Flight boolean,Ticket_Cost double,Destiny_Place varchar(150),Dsetiny_Pl
 insert into airport values('Kempemgowda Airport','bengalore',true,true,'king fisher','Air Way','Vijay Malya','24*7 On',true,true,true,'Available',true,true,'Good Condition',
 true,50,true,true,30,true,150,true,false,1200,'USA','Soth Korea');
 
+
+/*DML Operations*/
+
+use airport;
+
 select * from Airport;
+
+alter table airport modify column Domestic varchar(10);
+alter table airport add column Airport_place varchar(10) default 'Hubballi';
+update airport set Airport_place='hubballi' where Airport_name='Kempemgowda Airport';
+select * from airport where Airport_name='Kempemgowda Airport';
+
+select distinct(region) from  
+
+create table Airport_place1 as select * from   Airport_place;
+select * from Airport_place1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
